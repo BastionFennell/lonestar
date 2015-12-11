@@ -1,0 +1,93 @@
+/*color scheme:
+ * Base:
+ *
+ * darker   = #551700
+ * dark     = #803216
+ * base     = #AA5739
+ * light    = #D4876A
+ * lighter  = #FFC1AA
+ *
+ * Complementary:
+ *
+ * darker   = #003B20
+ * dark     = #0F5837
+ * base     = #277552
+ * light    = #499371
+ * lighter  = #76B095
+*/
+
+body {
+  background-color: #803216;
+}
+
+.container {
+  padding: 0;
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.row {
+  margin: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-logo {
+  width: 20%;
+}
+
+.header h1 {
+  color: white;
+  height: 200px;
+  padding-top: 50px;
+}
+
+.header {
+  text-shadow: 0 0 60px #161722, 0 5px 5px rgba(22, 23, 34, 0.5);
+  text-align: center;
+  background-color: #D4876A;
+  -webkit-filter: grayscale(0.5);
+  background-image: url("../images/header-background.jpg");
+  background-position-y: -150px;
+}
+
+.nav li a {
+  font-weight: bold;
+  color: white;
+}
+
+.nav .active a {
+  text-shadow: none;
+}
+
+.nav li a:hover {
+  color: black;
+}
+
+.featurette {
+  height: 512px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.featurette-image.pull-right {
+  padding-left: 10px;
+}
+
+.featurette-image.pull-left {
+  padding-right: 10px;
+}
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.row.top {
+  padding-top: 15px;
+}
+
+.about-image {
+  text-align: center;
+}
